@@ -1,0 +1,32 @@
+title: "Base de Datos Integrada"
+creator: "Dirección de Investigación y Publicaciones, Facultad de Ciencias Sociales, Universidad de Chile"
+date: "2025"
+identifier: "TBD"
+url: "https://github.com/facso-investigacion/datos-abiertos-dip/tree/main/Base%20Integrada"
+description: >
+ Base de datos integrada con anonimización de RUTs de investigadores
+subject: "Gestión de Información Científica"
+format: 
+ - ".csv"
+ - ".rdata"
+license: "TBD"
+language: "es"
+relationship:
+  - type: "isPartOf"
+    id: "https://github.com/facso-investigacion"
+    description: "Parte de la Organización de la Dirección de Investigación en Github"
+  - type: "isDerivedFrom"
+    id: "https://github.com/facso-investigacion/bases-datos-dip/blob/main/output/data-general.rdata"
+    description: "Se crea a partir de la anonimización de la base integrada"
+source: "Los datos fueron recopilados a partir de datos de SEPA-VID, ANID y FACSO"
+contact:
+  name: "Dirección de Investigación FACSO"
+  email: "asistenteinvestigacion@facso.cl"
+  phone: "+56 2 2978 9728"
+
+# Esto se tiene que actualizar en cada commit
+
+version: "1.0.0"
+last_updated: "2025-08-04"
+updated_by: "Gabriel Cortés"
+update_note: "Primera versión publicada"
