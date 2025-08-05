@@ -24,9 +24,15 @@ contact:
   email: "asistenteinvestigacion@facso.cl"
   phone: "+56 2 2978 9728"
 
-# Esto se tiene que actualizar en cada commit
+# Historia de versiones -- Cambiar antes de cada commit
 
-version: "1.0.0"
-last_updated: "2025-08-04"
-updated_by: "Gabriel Cortés"
-update_note: "Primera versión publicada"
+versions:
+ - id: "1.0.0"
+   last_updated: "2025-08-04"
+   updated_by: "Gabriel Cortés"
+   update_note: "Primera versión publicada"
+   
+ - id: "1.1.0"
+   last_updated: "2025-08-05"
+   updated_by: "Gabriel Cortés"
+   update_note: "Agrega postulaciones a proyectos FONDECYT 2026 con IR-FACSO"
